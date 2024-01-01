@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: " Inter ", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

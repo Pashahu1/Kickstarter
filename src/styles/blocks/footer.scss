@@ -1,0 +1,44 @@
+.footer {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-bottom: 30px;
+  }
+
+  &-page {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__facebook {
+    background: url(./images/footer/facebook.svg) center no-repeat;
+    background-size: cover;
+  }
+
+  &__twitter {
+    background: url(./images/footer/twitter.svg) center no-repeat;
+    background-size: cover;
+  }
+
+  &__instagram {
+    background: url(./images/footer/instagram.svg) center no-repeat;
+    background-size: cover;
+  }
+
+  &__bio {
+    width: 260px;
+    color: $c-silver-gray;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

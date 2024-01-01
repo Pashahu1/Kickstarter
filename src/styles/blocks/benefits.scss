@@ -1,0 +1,42 @@
+.main {
+  &__content {
+    @include gridPage;
+    
+    grid-row-gap: 110px;
+  }
+}
+
+.benefits {
+  grid-column: 1/-1;
+}
+
+.card {
+  &__futuristic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__image {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $c-gray;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: $c-light-gray;
+  }
+}

@@ -1,0 +1,41 @@
+.technology {
+  grid-column: 1/-1;
+}
+
+.card__technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-text {
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+    background: url(./images/image-content/quotes.svg) center no-repeat;
+    background-size: 203px;
+
+  }
+
+  &-images {
+    margin-bottom: 10px;
+    width: 62px;
+    height: 62px;
+  }
+
+  &-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  &-bio {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

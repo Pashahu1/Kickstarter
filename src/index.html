@@ -3,11 +3,186 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>kickstarter</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="icon" href="./styles/images/image-content/drawing.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <script
+      type="text/javascript"
+      src="./scripts/main.js"
+      defer
+    ></script>
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="header">
+      <section class="header__content">
+        <nav class="header__nav">
+          <a href="#" class="header__logo-link">
+            <img
+              src="./styles/images/image-content/logo.svg"
+              alt="future"
+              class="header__logo"
+            >
+          </a>
+          <div class="header__btn">
+            <span></span>
+          </div>
+        </nav>
+        <span class="header__preview"></span>
+        <div class="header__main">
+          <h1 class="header__title">
+            Futuristic Wireless Speaker
+          </h1>
+          <p class="header__text">
+            Luna’s performance is balanced and smooth in all frequency ranges which makes the music both naturally pleasant and distinctly more layered.
+          </p>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <div class="main__content">
+        <section class="benefits main--center">
+          <article class="card__futuristic">
+            <img
+              src="./styles/images/header/design.svg"
+              alt="Circule"
+              class="card__image"
+            >
+            <h3 class="card__title">Futuristic Design</h3>
+            <p class="card__text">To give Luna a truly flawless look, we specifically picked aircraft grade aluminum as its material and adopted both three-dimensional stretch-bending technology and a high precision cold forging technique.</p>
+          </article>
+        </section>
+
+        <section class="presentation">
+          <img
+            src="./styles/images/image-content/image 2.jpg"
+            alt="luna"
+            class="card__presentation-image"
+          >
+        </section>
+
+        <section class="about-us main--center">
+          <article class="card__about-us">
+            <h2 class="card__about-us-title">DESIGNED FOR THE FUTURE</h2>
+            <img
+              src="./styles/images/image-content/drawing.png"
+              alt="luna-eye"
+              class="card__about-us-images"
+            >
+            <p class="card__about-us-text text-color">In 2014, a group of geeky industrial designers, engineering veterans and acoustic experts formed crazybaby. This is a bunch of passionate people who are crazy enough to think they can challenge the industry with disruptive audio products.</p>
+            <a href="!#" class="card__link">See more about us</a>
+          </article>
+
+          <article class="card__luna-eye">
+            <h2 class="card__luna-eye-title">Luna Eye</h2>
+            <img
+              src="./styles/images/image-content/camera.png"
+              alt="luna-eye"
+              class="card__luna-eye-images"
+            >
+            <p class="card__luna-eye-text text-color">Luna Eye is to the essence of this innovative light and audio system. It comprises an independent tweeter speaker, a light guiding component, a dome and a ring ornament.</p>
+            <a href="!#" class="card__link">See more about us</a>
+          </article>
+        </section>
+
+        <section class="technology main--center">
+          <article class="card__technology">
+            <p class="card__technology-text">“It really took me by surprise honestly to have such full beautiful sound that coming out of this small compact device. And with the brush aluminum surface, it feels so familiar. Like my iPhone.”</p>
+            <img
+              src="./styles/images/image-content/Ellipse.svg"
+              alt="Garrett Martin"
+              class="card__technology-images"
+            >
+            <h3 class="card__technology-title">
+              Garrett Martin
+            </h3>
+            <p class="card__technology-bio text-color">Creative Director</p>
+          </article>
+        </section>
+
+        <section class="features">
+          <h2 class="features-title">FEATURES</h2>
+          <div class="features__container">
+            <article class="card__features">
+              <div class="card__features-content">
+                <h3 class="card__features-title">Sound & Music</h3>
+                <ul class="card__features-item">
+                  <li class="card__features-list">Feel-in-chest Base Power</li>
+                  <li class="card__features-list">Lossless Digital Audio Transmission</li>
+                  <li class="card__features-list">Easy & Stable Stereo Pairing</li>
+                  <li class="card__features-list">Crisp and Clear High Frequency Sound</li>
+                  <li class="card__features-list">Streams from Cloud Music and Local Library</li>
+                  <li class="card__features-list">Auto Music Playback from Last Song Stopped</li>
+                </ul>
+              </div>
+              <div class="card__features-slider">
+                <div class="card__features-slider-buttom ">
+                  <span class="arrow-left arrow-buttom"></span>
+                  <span class="arrow-right arrow-buttom"></span>
+                </div>
+                <div class="card__features-slider-stats">
+                  <span class="starting-value">01</span>
+                    /
+                  <span class="ending-value">03</span>
+                </div>
+              </div>
+              <span class="card__features-image"></span>
+            </article>
+          </div>
+        </section>
+
+        <section class="questions">
+          <div class="questions__content">
+            <h1 class="questions__title">DO YOU HAVE ANY QUESTIONS?</h1>
+            <form action="#" class="questions__form">
+              <input
+                type="email"
+                placeholder="Your email"
+                class="questions__form-email form-styles"
+                required
+              >
+
+              <textarea
+                name="messages"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message..."
+                class="questions__form-textarea form-styles"
+                required
+              ></textarea>
+              <button class="questions__form-button" type="submit">SEND</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__social">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__facebook footer-page"
+          ></a>
+
+          <a
+            href="https://twitter.com/home?lang=en"
+            target="_blank"
+            class="footer__twitter footer-page"
+          ></a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__instagram footer-page"
+          ></a>
+        </div>
+        <p class="footer__bio">© 2019 All rights reserved. Terms of Use & Privacy Policy</p>
+      </div>
+    </footer>
   </body>
 </html>
